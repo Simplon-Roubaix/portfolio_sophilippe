@@ -146,6 +146,10 @@ aside {
         color: #fff;
     }
 
+
+
+
+
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
         background-color: #fff;
@@ -186,7 +190,7 @@ header {
     -o-background-size: cover;*/
 }
 
-header .header-content {
+/*header .header-content {
     position: relative;
     width: 100%;
     padding: 100px 15px;
@@ -208,7 +212,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,.7);*/
 }
 
 @media(min-width:768px) {
@@ -216,7 +220,7 @@ header .header-content .header-content-inner p {
         min-height: 100%;
     }
 
-    header .header-content {
+    /*header .header-content {
         position: absolute;
         top: 50%;
         padding: 0 50px;
@@ -236,7 +240,7 @@ header .header-content .header-content-inner p {
         margin-left: auto;
         max-width: 80%;
         font-size: 18px;
-    }
+    }*/
 }
 
 /*Attention*/
@@ -260,7 +264,7 @@ Image credits: unsplash.com
     margin: 0 2px;
     background-color: #f39c12;
     border-color: #f39c12;
-    opacity: .7;
+    opacity: .5;
 }
 .fade-carousel .carousel-indicators > li.active {
   width: 10px;
@@ -344,7 +348,7 @@ Image credits: unsplash.com
 .fade-carousel .slides .slide-3 {
   height: 100vh;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
@@ -367,6 +371,9 @@ Image credits: unsplash.com
     .hero h1 { font-size: 4em; }
 }
 /*fin*/
+
+
+}
 .section-heading {
     margin-top: 0;
 }
